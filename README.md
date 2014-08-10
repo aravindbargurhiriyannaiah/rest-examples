@@ -1,0 +1,1 @@
+Rest webservice using Spring 4 - http://spring.io/guides/gs/rest-service/
