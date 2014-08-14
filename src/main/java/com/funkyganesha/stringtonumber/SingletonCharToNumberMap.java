@@ -1,4 +1,4 @@
-package com.funkyganesha;
+package com.funkyganesha.stringtonumber;
 
 import com.google.common.collect.Maps;
 

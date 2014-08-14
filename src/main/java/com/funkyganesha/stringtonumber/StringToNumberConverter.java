@@ -1,4 +1,4 @@
-package com.funkyganesha;
+package com.funkyganesha.stringtonumber;
 
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.RequestMapping;

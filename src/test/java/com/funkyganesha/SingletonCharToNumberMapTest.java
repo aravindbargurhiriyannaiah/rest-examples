@@ -1,5 +1,6 @@
 package com.funkyganesha;
 
+import com.funkyganesha.stringtonumber.SingletonCharToNumberMap;
 import org.junit.Test;
 
 import java.util.Map;

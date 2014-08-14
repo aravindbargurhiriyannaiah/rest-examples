@@ -1,8 +1,9 @@
-package com.funkyganesha;
+package com.funkyganesha.greeting;
 
 /**
  * Created by barga009 on 8/10/14 at 2:24 AM. Comment {"$EXPR$"}
  */
+
 public class Greeting {
     private final long id;
     private final String greeting;

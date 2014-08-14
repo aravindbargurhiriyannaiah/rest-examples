@@ -1,5 +1,6 @@
 package com.funkyganesha;
 
+import com.funkyganesha.stringtonumber.StringToNumberConverter;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertNull;
