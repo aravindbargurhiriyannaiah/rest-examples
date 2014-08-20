@@ -1,8 +1,13 @@
 package com.funkyganesha.questions;
 
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
 /**
  * Created by barga009 on 8/18/14 at 6:30 PM. Comment {"$EXPR$"}
  */
+@RestController
 public class ReverseArray {
 
     /**
@@ -19,7 +24,8 @@ public class ReverseArray {
      * Complexity = O(2n)
      */
 
-    public char[] reverseCharArray(char[] input) {
+    @RequestMapping("/reverseCharArray")
+    public char[] reverseCharArray(@RequestParam (value = "input") char[] input) {
         char[] output = null;
         if (input != null) {
             output = new char[input.length];

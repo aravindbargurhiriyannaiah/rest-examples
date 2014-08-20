@@ -1,8 +1,14 @@
 package com.funkyganesha.questions;
 
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
 public class Palindrome {
     //Check if a given string is a palindrome or not
-    public boolean isPalindrome(String str) {
+    @RequestMapping ("palindrome")
+    public boolean isPalindrome(@RequestParam (value = "string") String str) {
         boolean result = ((str != null) && (str.length() > 0));
         if (result) {
             char[] arr = str.toCharArray();

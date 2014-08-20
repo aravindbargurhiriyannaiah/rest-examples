@@ -34,13 +34,13 @@ public class Sudoku {
         return new StringBuilder().append("Sudoku \n{\n").append(sb.toString()).append("\n}").toString();
     }
 
-    public static void main(String args[]) {
-        Sudoku sudoku = new Sudoku();
-        List<Integer> nums = Lists.newArrayList();
-        for (int i = 1; i < 82; i++) {
-            nums.add(i);
-        }
-        sudoku.setNumbers(nums);
-        System.out.println((sudoku.toString()));
-    }
+//    public static void main(String args[]) {
+//        Sudoku sudoku = new Sudoku();
+//        List<Integer> nums = Lists.newArrayList();
+//        for (int i = 1; i < 82; i++) {
+//            nums.add(i);
+//        }
+//        sudoku.setNumbers(nums);
+//        System.out.println((sudoku.toString()));
+//    }
 }
